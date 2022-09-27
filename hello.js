@@ -1,4 +1,6 @@
-const sayHello  = function (name) {
-  console.log("Hello, " + name);
+const isEven  = function (num) {
+  return num % 2 === 0;
 }
-sayHello("joe");
+
+console.log(isEven(10));
+console.log(isEven(11));
